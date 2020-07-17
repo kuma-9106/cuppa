@@ -1,4 +1,6 @@
-    //hoverによる画像の切り替え
+'use strict';
+
+//hoverによる画像の切り替え
 function smartRollover() {
 	if(document.getElementsByTagName) {
 		var images = document.getElementsByTagName("img");
@@ -110,8 +112,9 @@ $(function() {
     topBtn.hide();
     //スクロールが100に達したらボタン表示
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 1000) {
             topBtn.fadeIn();
+            console.log('谷保！')
         } else {
             topBtn.fadeOut();
         }
@@ -153,10 +156,6 @@ $(function() {
 
 
     //カルーセルスライド
-
-
-
-
 $(function() {
     $('.multiple-item').slick({
           infinite: true,

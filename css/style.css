@@ -1,15 +1,26 @@
-@charset "UTF-8";
 /* reset*/
-*{margin:0;padding:0;}
-img{border:none;max-width: 100%;margin: 0;padding: 0;vertical-align: bottom;}
-li{list-style-type:none;}
+*{
+	margin:0;padding:0;
+	
+}
+img{
+	border: none;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+	
+}
+li{
+	list-style-type:none;
+	
+}
 body{
     color:#020202;
     font-size:13px;
     font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
     line-height:166%;
     background-color: #f7f7f7;
-
 }
 a{
 	text-decoration: none;
@@ -61,7 +72,7 @@ nav ul li.menu{
 	float: left;
 	padding: 20px 35px 15px 35px;
 }
-nav ul li.sns{
+nav ul .sns{
 	float: left;
 	padding-top: 5px;
 }
@@ -69,7 +80,6 @@ nav ul li.menu a:hover{
 	padding-bottom: 20px;
 	border-bottom: solid 1px #987108;
 	box-sizing: border-box;
-	
 }
 .online{
 	display: block;
@@ -139,7 +149,7 @@ nav.fixed .header_R ul li{
 	float: left;
 }
 /* モバイル用navi*/
-div#navToggle {
+#navToggle {
     　display:none !important; /*通常時は非表示にしておきます*/
       position:absolute; /*bodyに対しての絶対位置指定です*/
       right:13px;
@@ -147,7 +157,11 @@ div#navToggle {
       width:30px;
       height:25px;
       cursor:pointer}
-#navToggle div {position:relative} /*spanの絶対位置指定の親にします*/
+#navToggle div {
+	position:relative
+	
+}
+/*spanの絶対位置指定の親にします*/
 #navToggle span {
       display:block;
       position:absolute; /*#navToggle div に対して*/
@@ -155,10 +169,17 @@ div#navToggle {
       border-bottom:solid 3px #999;
       -webkit-transition: .35s ease-in-out;
       -moz-transition: .35s ease-in-out;
-      transition: .35s ease-in-out}
-#navToggle span:nth-child(1) {top:0}
-#navToggle span:nth-child(2) {top:11px}
-#navToggle span:nth-child(3) {top:22px} 
+      transition: .35s ease-in-out;
+}
+#navToggle span:nth-child(1) {
+	  top:0;
+}
+#navToggle span:nth-child(2) {
+	  top:11px;
+}
+#navToggle span:nth-child(3) {
+	  top:22px;
+} 
 /* footer*/
 #footer{
 	clear: both;
@@ -213,7 +234,7 @@ h2{
 	font-size: 40px;
 	font-family: 'Monotype Corsiva';
 }
-h2.event_h{
+.event_h{
 	font-size: 25px;
     font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;	
 }
@@ -298,7 +319,7 @@ a{
 	border: solid 1px #0d2b3d;
 	padding: 14px 19px;	
 }
-span.subtitle{
+.subtitle{
 	text-align: center;
 }
 .emph{
@@ -382,7 +403,7 @@ span.subtitle{
 	width: 70%;
 	margin: 50px auto 130px auto;
 }
-span.icon img{
+.icon img{
 	width: 90px;
 }
 /* About usページ*/
