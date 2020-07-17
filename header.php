@@ -6,11 +6,12 @@
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="http://43ae6a902cea4d0c99507f757dd506ec.vfs.cloud9.us-east-2.amazonaws.com/cuppa/css/style.css" />
 <link rel="stylesheet" href="http://43ae6a902cea4d0c99507f757dd506ec.vfs.cloud9.us-east-2.amazonaws.com/cuppa/css/mobile.css" />
-
 <link rel="stylesheet" type="text/css" href="/cuppa/slick/slick.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/cuppa/slick/slick-theme.css" media="screen" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="/cuppa/slick/slick.min.js"></script>
+<script src="/cuppa/slick/slick.js" type="text/javascript"></script>
+<script src="/cuppa/js/jquery.js" type="text/javascript"></script>
 
 <title>紅茶専門店</title>
 </head>

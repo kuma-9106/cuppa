@@ -23,37 +23,5 @@
 		 <p class="center">Copyright © cuppa All Rights Reserved.</p>
 		</div>
 		 <p id="page-top"><a href="#main">topへ</a></p>	
-
-
-<script src="/cuppa/js/slick.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-$(function() {
-	$('.slider').slick({
-		dots: true, // スライダー下部に表示される、ドット状のページネーションです
-		infinite: true, // 無限ループ
-		speed: 500, // 切り替わりのスピード
-		slidesToShow: 3, //通常 1024px以上の領域では4画像表示
-		slidesToScroll: 3, 
-		responsive: [{
-			breakpoint: 1024,settings: { //601px～1024pxでは3画像表示
-				slidesToShow: 2,
-				slidesToScroll: 2,
-			}
-		},
-		{
-			breakpoint: 600,settings: { //481px～600pxでは2画像表示
-				slidesToShow: 2,
-				slidesToScroll: 2
-			}
-		},
-		{
-			breakpoint: 480,settings: {//480px以下では1画像表示
-				slidesToShow: 1,
-				slidesToScroll: 1
-			}
-		}]
-	});
-});
-</script>
 </body>
 </html>

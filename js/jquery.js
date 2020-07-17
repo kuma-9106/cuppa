@@ -42,8 +42,6 @@ new function(){
         rolloverImg.style.opacity = alpha/100;
         rolloverImg.style.filter = 'alpha(opacity='+alpha+')';
         rolloverImg.style.position = 'absolute';
-
-
         addEvent(rolloverImg,'mouseover',function(){setFader(this,100);});
         addEvent(rolloverImg,'mouseout',function(){setFader(this,0);});
 
@@ -108,19 +106,26 @@ new function(){
     //スクロールボタン
 
 $(function() {
-    var topBtn = $('#page-top');    
-    topBtn.hide();
-    //スクロールが100に達したらボタン表示
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 1000) {
-            topBtn.fadeIn();
+    $('a[href^="#"]').on('click', function() {
+        let href = $(this).attr('href');
+        let target = $(href == '#' || href == '' ? 'html' : href);
+        let position = target.offset().top;
+        $('body,html').animate({ scrollTop: position }, 500, 'swing');
+        return false;
+    });
+    
+    $('#page-top').hide();
+    //スクロールが500に達したらボタン表示
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 500) {
+            $('#page-top').fadeIn();
             console.log('谷保！')
         } else {
-            topBtn.fadeOut();
+            $('#page-top').fadeOut();
         }
     });
     //スクロールしてトップ
-    topBtn.click(function () {
+    $('#page-top').click(function () {
         $('body,html').animate({
             scrollTop: 0
         }, 500);
@@ -157,24 +162,29 @@ $(function() {
 
     //カルーセルスライド
 $(function() {
-    $('.multiple-item').slick({
-          infinite: true,
-          dots:true,
-          slidesToShow: 6,
-          slidesToScroll: 6,
-          responsive: [{
-               breakpoint: 768,
-                    settings: {
-                         slidesToShow: 3,
-                         slidesToScroll: 3,
-               }
-          },{
-               breakpoint: 480,
-                    settings: {
-                         slidesToShow: 2,
-                         slidesToScroll: 2,
-                    }
-               }
-          ]
-     });
+	$('.slider').slick({
+		dots: true, // スライダー下部に表示される、ドット状のページネーションです
+		infinite: true, // 無限ループ
+		speed: 500, // 切り替わりのスピード
+		slidesToShow: 3, //通常 1024px以上の領域では4画像表示
+		slidesToScroll: 3, 
+		responsive: [{
+			breakpoint: 1024,settings: { //601px～1024pxでは3画像表示
+				slidesToShow: 2,
+				slidesToScroll: 2,
+			}
+		},
+		{
+			breakpoint: 600,settings: { //481px～600pxでは2画像表示
+				slidesToShow: 2,
+				slidesToScroll: 2
+			}
+		},
+		{
+			breakpoint: 480,settings: {//480px以下では1画像表示
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}]
+	});
 });

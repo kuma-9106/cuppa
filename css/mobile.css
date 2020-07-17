@@ -52,7 +52,7 @@
 .concept ul{
 	display: block;
 }	
-.concept ul li, .rule ul li,.policy .text_L,.policy .img_R,.text_L{
+.concept ul li, .rule ul li, .policy .text_L, .policy .img_R, .text_L{
 	width: 90%;
 	margin: auto;
 	float: none;
