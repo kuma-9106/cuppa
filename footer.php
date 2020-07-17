@@ -2,7 +2,7 @@
 		 <article class="footer_inner">
 		 	<section>
 		 	 <ul class="logo_f">
-		 	 	<li><a href="https://sakuma.fines-dev.com/cuppa/"><img src="https://sakuma.fines-dev.com/cuppa/img/cuppalogo_f.png" width="220px"></a></li>
+		 	 	<li><a href="/cuppa/"><img src="/cuppa/img/cuppalogo_f.png" width="220px"></a></li>
 		 	 </ul>
 		 	</section>
 		 	<section>
@@ -25,7 +25,7 @@
 		 <p id="page-top"><a href="#main">topへ</a></p>	
 
 
-<script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="/cuppa/js/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
 $(function() {
 	$('.slider').slick({

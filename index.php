@@ -1,13 +1,13 @@
 <?php include("header.php"); ?>
    <div id="container">
-     <div class="top_img"><img src="img/top_main.jpg" class="for_mobile" width="100%"></div>
+     <div class="top_img"><img src="cuppa/img/top_main.jpg" class="for_mobile" width="100%"></div>
     <div class="contents"> 
      <article class="concept block_70">
         <h2>Concept</h2>
      	<ul>
-     		<li><span class="icon"><img src="img/concept_01.png" width="90px"></span><p>a cup of tea ....<br>それは、世界の産地から選りすぐった紅茶を味わえる場所です。そこには、お気に入りの茶器があり、くつろぎの空間があり、大切な人との語らいの時間が存在するのです。一杯のお茶がもたらす豊かな時間。あなただけのすてきな時間を見つけてみませんか？</p></li>
-     		<li><span class="icon"><img src="img/concept_02.png" width="90px"></span><p>こだわり抜いた紅茶は、飲み心地、香り、後味、すべてが違います。 インド・スリランカ直輸入の厳選された本当の美味しい紅茶。 私たちがご提供する[ LUVOND TEA ]は、長年紅茶に携わり、培ってきた独自の茶葉の選定基準があり、厳選茶葉を使用し、製法に対しても研究を重ねてきました。</p></li>
-     		<li><span class="icon"><img src="img/concept_03.png" width="90px"></span><p>大切な人に、心をこめて淹れるお茶は、味わいがまろやかで甘く感じます。 それは不思議だけれど本当のお話。 おいしい紅茶を淹れるには…“良い茶葉”と“良い水”と“まごころ”さえあれば、誰でもおいしく淹れることが出来ます。</p></li>
+     		<li><span class="icon"><img src="cuppa/img/concept_01.png" width="90px"></span><p>a cup of tea ....<br>それは、世界の産地から選りすぐった紅茶を味わえる場所です。そこには、お気に入りの茶器があり、くつろぎの空間があり、大切な人との語らいの時間が存在するのです。一杯のお茶がもたらす豊かな時間。あなただけのすてきな時間を見つけてみませんか？</p></li>
+     		<li><span class="icon"><img src="cuppa/img/concept_02.png" width="90px"></span><p>こだわり抜いた紅茶は、飲み心地、香り、後味、すべてが違います。 インド・スリランカ直輸入の厳選された本当の美味しい紅茶。 私たちがご提供する[ LUVOND TEA ]は、長年紅茶に携わり、培ってきた独自の茶葉の選定基準があり、厳選茶葉を使用し、製法に対しても研究を重ねてきました。</p></li>
+     		<li><span class="icon"><img src="cuppa/img/concept_03.png" width="90px"></span><p>大切な人に、心をこめて淹れるお茶は、味わいがまろやかで甘く感じます。 それは不思議だけれど本当のお話。 おいしい紅茶を淹れるには…“良い茶葉”と“良い水”と“まごころ”さえあれば、誰でもおいしく淹れることが出来ます。</p></li>
      	</ul>
      </article>
      <article class="policy"> 
@@ -20,12 +20,12 @@
      <article class="topic clear">     
      <h2>Pickup contents</h2>
      <ul class="slider">
-     <div><img src="img/top_topic_01.jpg"><p>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p></div>
-     <div><img src="img/top_topic_02.jpg"></div>
-     <div><img src="img/top_topic_03.jpg"></div>
-     <div><img src="img/top_topic_04.jpg"></div>
-     <div><img src="img/top_topic_05.jpg"></div>
-     <div><img src="img/top_topic_06.jpg"></div>
+     <div><img src="cuppa/img/top_topic_01.jpg"><p>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p></div>
+     <div><img src="cuppa/img/top_topic_02.jpg"></div>
+     <div><img src="cuppa/img/top_topic_03.jpg"></div>
+     <div><img src="cuppa/img/top_topic_04.jpg"></div>
+     <div><img src="cuppa/img/top_topic_05.jpg"></div>
+     <div><img src="cuppa/img/top_topic_06.jpg"></div>
 </section>      
      </article>
 
