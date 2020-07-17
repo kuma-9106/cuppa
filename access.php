@@ -1,0 +1,30 @@
+ <?php include("header.php"); ?>
+   <div id="container">
+    <div><img src="../img/access_main.jpg" width="100%"></div>
+    <div class="block_70 ">
+      <h2>Access</h2>
+     <p class="center">東京ooo駅からすぐ、茶葉や紅茶を淹れるための器具を豊富にご用意しています。お好みの茶葉や淹れ方も、じっくり相談しながら選べます。当店で働くスタッフは皆ティーインストラクターの資格を持っています。プレゼントや紅茶に詳しくないかたでもお気軽にスタッフにお声掛けください。２０XX年の駅の拡大によりOX駅４B出口から徒歩４分とアクセスしやすくなりました。</p>
+     <div class="block_70">
+      <section class="img_L"><img src="../img/access_img01.jpg"></section>
+      <section class="text_R">
+       <p>
+       	<dl>
+       	 <dt>Adress</dt>
+       	 <dd>xxx県oxoxox区oxoxoxoxoxoxoxox1-2-3<br>oooビル 3F</dd>
+       	</dl>
+       	<dl>
+       	 <dt>Hour</dt>
+       	 <dd>月~金　9:30am ~ 21:00pm</dd>
+       	</dl>
+       	<dl>
+       	 <dt>Online shop</dt>
+       	 <dd>oxoxoxoxxoxox@xoxox.xo.xo</dd>
+       	</dl>       	       	
+       </p>
+      </section>
+     </div>
+   </div>
+   <div class="pt20 clear"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.6245508955913!2d151.20489511606345!3d-33.87356558065499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3c2965d745%3A0x61fd9a8d0c7d88c!2sTown+Hall+Station!5e0!3m2!1sja!2sjp!4v1513756744132" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+  <?php include("footer.php"); ?>
+</body>
+</html>

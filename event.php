@@ -1,0 +1,51 @@
+ <?php include("header.php"); ?>
+   <div id="container">
+   	<img src="./img/event_main.jpg" width="100%" />
+    <div class="event_page">     
+      <div class="block_70 pb20">
+      <h2>Event for this month</h2>
+      <p class="center">紅茶専門店CUPPAはただ紅茶を提供するだけでなく、お家で体験できないような一味違う紅茶体験ができるイベントを定期的開催しております。亭主をよんで茶事を開いたり、有名洋菓子店のパティシエが作ったスイーツで紅茶を楽しむアフタヌーンティーなど様々です。最近ですと皆様方のおかげでご盛況をいただいており、ご予約がたいへん取りにくくなっております。<br>お早めにご予約ください。</p>    
+      </div>  
+     <div class="bg_white">
+       <div class="block_70">
+       <section class="img_L"><img src="./img/event_img01.jpg"></section>
+       <section class="text_R pt70">
+        <h2 class="event_h">優雅なアフタヌーンティー</h2>
+        <p>日時　OO月OO日　12時から<br>参加費　一人2000円　　定員　20名</p>
+        <p>パリで修業をした有名パティシエが作る紅茶と相性抜群のケーキが人気のアフタヌーンティーパーティーです。
+        <a href="" class="clear button">このイベントに申し込む</a>          
+        </p></section>       
+       </div>
+     </div>
+     <div class="clear block_70 pt100 pb100">
+       <section class="text_L pt70">
+       	<h2 class="event_h">世界のティーセット</h2>
+        <p>日時　OO月OO日　12時から<br>参加費　一人2000円　　定員　20名</p>
+        <p>世界のかわいいティーセットでいつもの紅茶を目でも楽しんでいただけます。いつもの紅茶がまた違ってきます。
+        <a href="" class="clear button">このイベントに申し込む</a>          
+        </p>
+       </section>
+       <section class="img_R"><img src="./img/event_img02.jpg"></section>      	
+     </div>
+       <div class="bg_white clear">     
+     <div class="block_70">
+       <section class="img_L"><img src="./img/event_img03.jpg"></section>
+       <section class="text_R pt70">
+        <h2 class="event_h">チーズと紅茶</h2>
+        <p>日時　OO月OO日　12時から<br>参加費　一人2000円　　定員　20名</p>
+        <p>意外に感じる組み合わせですが相性がいいチーズと紅茶。お酒が飲めないひとは代わりに紅茶とチーズでいかがでしょうか？      
+        <a href="" class="clear button">このイベントに申し込む</a>  
+        </p>        
+        </section>    
+      <p class="clear center emph">また今月以降のイベントを確認、お申込みしたい方は下記よりお問い合わせください。<br>
+      TEL <a href="tel:">xxx-xxxxx-xxxx</a>　　Email <a href="mailto:">xoxoxoxoxxoxo@xxxx.xx.xx</a>
+      
+      </p>           
+     </div>           
+     </div> 
+     </div> 
+   </div>
+  
+  <?php include("footer.php"); ?>  
+</body>
+</html>

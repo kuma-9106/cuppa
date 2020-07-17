@@ -1,0 +1,503 @@
+@charset "UTF-8";
+/* reset*/
+*{margin:0;padding:0;}
+img{border:none;max-width: 100%;margin: 0;padding: 0;vertical-align: bottom;}
+li{list-style-type:none;}
+body{
+    color:#020202;
+    font-size:13px;
+    font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    line-height:166%;
+    background-color: #f7f7f7;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	border-bottom: solid 1px;
+}
+/* header*/
+.header_h{
+	width: 850px;
+	margin: auto;
+}
+/* logo*/
+.h_logo{
+	width: 515px;
+	text-align: right;
+	float: left;
+}
+.h_logo a{
+	width: 180px;
+    text-indent: -9999px;
+}
+.header_R{
+	width: 141px;
+	float: right;
+	text-align: right;
+	padding-top: 40px;
+}
+/* navi*/
+nav{
+	display: block;
+	margin: 10px auto;	
+	width: 850px;
+	height: 150px;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition : all 0.7s ease-in-out;
+	transition : all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;	
+}
+nav ul.navi{
+	display: block;
+	float: left;
+	line-height: 16px;	
+	text-align: center;
+	width: 643.5px;
+	height: 70px;
+}
+nav ul li.menu{
+	float: left;
+	padding: 20px 35px 15px 35px;
+}
+nav ul li.sns{
+	float: left;
+	padding-top: 5px;
+}
+nav ul li.menu a:hover{
+	padding-bottom: 20px;
+	border-bottom: solid 1px #987108;
+	box-sizing: border-box;
+	
+}
+.online{
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+	float: right;
+	padding-top: 13px;
+}
+.online ul{
+	float: right;
+	margin-right: 35px;
+}
+.online ul li{
+	float: left;
+}
+.header_R a:hover{
+	border-bottom: none;
+}
+.header_R li:not(:first-child){
+	margin-left: 15px;
+}
+nav ul li a{
+	color: #020202;	
+}
+span{
+	font-size: 12px;
+	text-align: center;
+	display: block;
+}
+nav.fixed {
+	position: fixed;
+	width: 100%;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition : all 0.7s ease-in-out;
+	transition : all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	padding-top: 5px;
+	margin: 0;
+}
+nav.fixed .header_R{
+	width: 141px;
+	padding-top: 8px;
+}
+nav.fixed .h_logo{
+	margin-right: 50px;
+	padding-top: 0;
+}
+nav.fixed .header_h{
+	width: 850px;
+	margin: auto;
+}
+nav.fixed .header_b{
+	width: 850px;
+	margin: auto;	
+}
+nav.fixed ul.navi{
+	width: 643.5px;
+	margin: 0 auto;
+}
+nav.fixed .header_R ul{
+	float: right;
+}
+nav.fixed .header_R ul li{
+	float: left;
+}
+/* モバイル用navi*/
+div#navToggle {
+    　display:none !important; /*通常時は非表示にしておきます*/
+      position:absolute; /*bodyに対しての絶対位置指定です*/
+      right:13px;
+      top:13px;
+      width:30px;
+      height:25px;
+      cursor:pointer}
+#navToggle div {position:relative} /*spanの絶対位置指定の親にします*/
+#navToggle span {
+      display:block;
+      position:absolute; /*#navToggle div に対して*/
+      width:100%;
+      border-bottom:solid 3px #999;
+      -webkit-transition: .35s ease-in-out;
+      -moz-transition: .35s ease-in-out;
+      transition: .35s ease-in-out}
+#navToggle span:nth-child(1) {top:0}
+#navToggle span:nth-child(2) {top:11px}
+#navToggle span:nth-child(3) {top:22px} 
+/* footer*/
+#footer{
+	clear: both;
+	background-color: #34383b;
+	color: #fff;
+}
+.footer_inner{
+	width: 990px;
+	margin: 0 auto;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-around;	
+}
+.footer_inner ul li{
+	width: 247.5px;
+	line-height: 35px;
+}
+.footer_inner ul.logo_f{
+	margin-top: 20px;
+}
+.footer_inner ul.logo_f a{
+	border-bottom: none;
+}
+.footer_inner ul li a{
+	color: #fff;
+}
+/* topへ*/
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    font-size: 77%;
+	width: 100px;
+}
+#page-top a {
+    background: #666;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    background: #999;
+}
+/* 共通*/
+h2{
+	color: #0d2b3d;
+	text-align: center;
+	padding: 60px 0 20px 0;
+	font-size: 40px;
+	font-family: 'Monotype Corsiva';
+}
+h2.event_h{
+	font-size: 25px;
+    font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;	
+}
+h3{
+	color: #987108;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+p{
+	width: 80%;
+	padding: 20px;
+	margin: 0 auto;	
+	word-break: break-all;
+	box-sizing: border-box;	
+	line-height: 30px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.clearfix{
+  zoom:1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  font-size: 0.1em;
+  line-height: 0;
+}
+.block_70{
+	width: 990px;
+	margin: 30px auto;
+	box-sizing: border-box;
+}
+.center{
+	text-align: center;
+}
+.pt20{
+	padding-top: 20px;
+	display: block;
+}
+.pt70{
+	padding-top: 70px !important;
+	display: block;
+}
+.pb20{
+    padding-bottom: 20px;
+}
+.pb50{
+    padding-bottom: 50px;
+}
+.bg_white{
+	background-color: #fff;
+	overflow: hidden;
+}
+.button{
+	display: block;
+	margin: 20px auto;
+	background-color: #0d2b3d;
+	padding: 15px 20px;
+    width: 200px;
+	text-align: center;
+	color: #fff;
+    text-decoration: none;	
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all  0.7s ease;	
+}
+.button:hover{
+	background-color: #fff;
+	color: #0d2b3d;
+	border: solid 1px #0d2b3d;
+	padding: 14px 19px;	
+}
+span.subtitle{
+	text-align: center;
+}
+.emph{
+	font-size: 15px;
+	line-height: 38px;
+}
+/* topページ*/
+.top_img{
+	background-image:url(../img/top_main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 800px;
+	background-size: cover;
+}
+.contents{
+	margin: 0 auto;
+	width: 100%;
+}
+.concept{
+	display: block;
+	background-color: #fff;
+	margin: -85px auto 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.concept p{
+	padding: 20px 0;
+}
+.concept ul,.recommend,.rule ul{
+	display: flex;
+	justify-content: space-around;
+}
+.concept ul li,.rule ul li{
+	display: block;
+	margin-bottom: 40px;
+	margin-top: 30px;
+    box-sizing: border-box;	
+	width: 330px;	
+	text-align: center;
+}
+
+.concept ul li img,.topic ul li img{
+	display: block;
+	margin: 0 auto;
+}
+.topic ul li img{
+	width: 85%;
+	padding-top: 20px;
+}
+.policy{
+	background-image: url(../img/top_policy.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+    height: 690px;
+}
+.policy_inner,.policy h2{
+	margin: 0 auto;
+	color: #fff;
+}
+.policy .text_L{
+	border: solid 2px #fff;
+	width: 550px;
+	float: left;
+	margin-top: 20px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	
+}
+.policy .img_R{
+	display: block;
+	width: 470px;
+	float: right;
+	background-color: #fff;
+	margin-top: -180px;
+	margin-bottom: 40px;
+	color: #0d2b3d;
+	text-align: center;
+}
+.topic{
+	display: block;
+	width: 70%;
+	margin: 50px auto 130px auto;
+}
+span.icon img{
+	width: 90px;
+}
+/* About usページ*/
+.about_text{
+	margin-top: 75px;
+}
+.about_b2{
+	height: 600px;
+	background-image: url(../img/about_img02.jpg);
+}
+.about_block2{
+    background: rgba(255,255,255,0.6);
+	margin-top: 50px;
+	display: block;
+	padding-bottom: 20px;
+}
+.rule{
+	text-align: center;
+}
+.rule img{
+	width: 100px;
+}
+table{
+	width: 100%;
+	margin: 20px 0 80px 0;
+	padding: 50px 0;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;	
+}
+table tr{
+    display: block;
+	padding: 30px 0;
+}
+table th{
+	width: 200px;
+}
+table td{
+	width: 790px;
+}
+/* Productページ*/
+ul.product_li{
+	width: 100%;
+}
+.product_li li{
+	display: block;
+	float: left;
+	width: 330px;
+	text-align: center;
+	color: #987108;
+}
+.product_li li div{
+	padding: 24px 0;
+}
+.recommend{
+	margin-top: 30px;
+}
+.recommend li{
+	width: 330px;
+	text-align: center;
+}
+.recommend li img{
+	width: 75%;
+}
+.xmas{
+	background-image: url(../img/xmas_hbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text_bg{
+	background-image: url(../img/xmas_text.png);
+	background-repeat: no-repeat;
+	height: 415px;
+	background-position: center;
+	margin-top: 20px;
+}
+.text_bg p{
+	padding-top: 77px;
+}
+.xmas_block{
+	height: 430px;
+	margin-top: 30px;
+}
+/* Eventページ*/
+.img_R{
+	float: right;
+	width: 550px;
+	text-align: right;
+}
+.event_page .text_R{
+	float: right;
+	width: 440px;
+	text-align: center;
+}
+.event_page img{
+	padding: 100px 0;
+}
+.text_L{
+	float: left;
+	width: 440px;
+	text-align: center;
+}
+/* Accessページ*/
+.img_L{
+	float: left;
+	width: 550px;
+}
+.text_R{
+	float: right;
+	background-color: #fff;
+	width: 40%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+/* PC用*/
+.for_mobile{
+	display: none;
+}
+
