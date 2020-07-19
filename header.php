@@ -45,6 +45,16 @@
       	</ul>
       </div>
     </nav>
+    <div class="for_mobile header_R_mobile">
+          <ul class="sns_mobile">
+      	    <li class="sns"><a href="https://ja-jp.facebook.com/" target="_blank"><img src="http://43ae6a902cea4d0c99507f757dd506ec.vfs.cloud9.us-east-2.amazonaws.com/cuppa/img/facebook_h_off.png" alt="facebook"></a></li>
+      	    <li class="sns"><a href="https://twitter.com/?lang=ja" target="_blank"><img src="http://43ae6a902cea4d0c99507f757dd506ec.vfs.cloud9.us-east-2.amazonaws.com/cuppa/img/twitter_h_off.png" alt="twitter"></a></li>
+      	    <li class="sns"><a href="https://www.instagram.com/?hl=ja" target="_blank"><img src="http://43ae6a902cea4d0c99507f757dd506ec.vfs.cloud9.us-east-2.amazonaws.com/cuppa/img/instagram_h_off.png" alt="instagram"></a></li>  
+          </ul>        
+     	  <p>
+            <img src="/cuppa/img/online_top_off.png"> 
+          </p>
+    </div>
     <header>  
     <p id="navToggle">
      <div>
@@ -60,4 +70,4 @@
         <li><a href="#">MENU4</a></li>
        </ul>
     </nav>     
-   </header> 
+   </header>

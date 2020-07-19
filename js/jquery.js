@@ -181,7 +181,7 @@ $(function() {
 			}
 		},
 		{
-			breakpoint: 480,settings: {//480px以下では1画像表示
+			breakpoint: 530,settings: {//480px以下では1画像表示
 				slidesToShow: 1,
 				slidesToScroll: 1
 			}

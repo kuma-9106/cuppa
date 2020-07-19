@@ -10,14 +10,46 @@
 	display: none;
 }
 /* navi*/
+nav ul.navi, .header_R, .header_b{
+	display: none;
+}
+nav, .header_h{
+	width: 100%;
+}
+.h_logo{
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.header_R_mobile{
+	display: block;
+	float: right;
+	padding-bottom: 10px;
+}
+.header_R_mobile p{
+	width: 100%;
+	padding: 0;
+}
+.header_R_mobile ul li.sns{
+	float: left;
+    padding-top: 5px;
+}
+.header_R_mobile ul.sns_mobile{
+	width: 141px;
+}
+.header_R_mobile ul:after{
+	content: '';
+	clear: both;
+}
 #navToggle {
-    display:none; /*通常時は非表示にしておきます*/
-    position:absolute; /*bodyに対しての絶対位置指定です*/
+    display:block; 
+    position:absolute; 
     right:13px;
     top:13px;
     width:30px;
     height:25px;
     cursor:pointer;
+    background-color: #243E65;
 }
 #navToggle div {
 	position:relative
@@ -25,7 +57,7 @@
 /*spanの絶対位置指定の親にします*/
 #navToggle span {
     display:block;
-    position:absolute; /*#navToggle div に対して*/
+    position:absolute;
     width:100%;
     border-bottom:solid 3px #999;
     -webkit-transition: .35s ease-in-out;

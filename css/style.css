@@ -150,21 +150,21 @@ nav.fixed .header_R ul li{
 }
 /* モバイル用navi*/
 #navToggle {
-    　display:none !important; /*通常時は非表示にしておきます*/
-      position:absolute; /*bodyに対しての絶対位置指定です*/
+    　display: none;
+      position:absolute; 
       right:13px;
       top:13px;
       width:30px;
       height:25px;
-      cursor:pointer}
+      cursor:pointer;
+}
 #navToggle div {
-	position:relative
-	
+	position:relative;
 }
 /*spanの絶対位置指定の親にします*/
 #navToggle span {
       display:block;
-      position:absolute; /*#navToggle div に対して*/
+      position:absolute;
       width:100%;
       border-bottom:solid 3px #999;
       -webkit-transition: .35s ease-in-out;
@@ -187,14 +187,16 @@ nav.fixed .header_R ul li{
 	color: #fff;
 }
 .footer_inner{
-	width: 990px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 30px 0;
 	display: flex;
 	justify-content: space-around;	
 }
+.footer_inner section{
+	width: 33.3%;
+}
 .footer_inner ul li{
-	width: 247.5px;
 	line-height: 35px;
 }
 .footer_inner ul.logo_f{
