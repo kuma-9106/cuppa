@@ -36,6 +36,7 @@ nav, .header_h{
 }
 .header_R_mobile ul.sns_mobile{
 	width: 141px;
+	padding-bottom: 10px;
 }
 .header_R_mobile ul:after{
 	content: '';
