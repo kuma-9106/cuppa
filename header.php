@@ -63,11 +63,11 @@
     </p><!--#navToggle END-->
     <nav>
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">MENU1</a></li>
-        <li><a href="#">MENU2</a></li>
-        <li><a href="#">MENU3</a></li>
-        <li><a href="#">MENU4</a></li>
+        <li class="menu"><a href="/cuppa/">HOME<br><span>ホーム</span></a></li>
+  		<li class="menu"><a href="/cuppa/about.php">About us<br><span>Cuppaについて</span></a></li>
+  		<li class="menu"><a href="/cuppa/product.php">Product<br><span>商品紹介</span></a></li> 
+  		<li class="menu"><a href="/cuppa/event.php">Event<br><span>イベント情報</span></a></li>
+  		<li class="menu"><a href="/cuppa/access.php/">Access<br><span>アクセス</span></a></li> 
        </ul>
     </nav>     
    </header>
