@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 //hoverによる画像の切り替え
 function smartRollover() {
 	if(document.getElementsByTagName) {
