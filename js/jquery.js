@@ -1,6 +1,6 @@
+
+$(window).on('load', function() {
 'use strict';
-
-
 
 //hoverによる画像の切り替え
 function smartRollover() {
@@ -107,7 +107,7 @@ new function(){
 
     //スクロールボタン
 
-$(function() {
+
     $('a[href^="#"]').on('click', function() {
         let href = $(this).attr('href');
         let target = $(href == '#' || href == '' ? 'html' : href);
@@ -121,7 +121,6 @@ $(function() {
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 500) {
             $('#page-top').fadeIn();
-            console.log('谷保！')
         } else {
             $('#page-top').fadeOut();
         }
@@ -133,7 +132,6 @@ $(function() {
         }, 500);
         return false;
     });
-});
 
     //スクロールボタンend
 
@@ -142,7 +140,7 @@ $(function() {
 
     //Gナビ固定
 
-$(function() {
+
 	
 	//ロード or スクロールされると実行
 	$(window).on('load scroll', function(){
@@ -157,13 +155,11 @@ $(function() {
 		
 	});
 	
-});
 
     //Gナビ固定end
 
 
     //カルーセルスライド
-$(function() {
 	$('.slider').slick({
 		dots: true, // スライダー下部に表示される、ドット状のページネーションです
 		infinite: true, // 無限ループ
@@ -189,4 +185,19 @@ $(function() {
 			}
 		}]
 	});
+
+
+      $(window).scroll(function() {
+                if ($(window).scrollTop() > 350) {
+                    $('#top-head').addClass('fixed');
+                } else {
+                    $('#top-head').removeClass('fixed');
+                }
+            });
+            $('#nav-toggle').on('click', function(){
+                $('#top-head').toggleClass('open');
+                console.log('test');
+            });
+  
 });
+
