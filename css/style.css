@@ -1,7 +1,7 @@
 /* reset*/
 *{
 	margin:0;padding:0;
-	
+	box-sizing: border-box;
 }
 img{
 	border: none;
@@ -9,11 +9,9 @@ img{
 	margin: 0;
 	padding: 0;
 	vertical-align: bottom;
-	
 }
 li{
 	list-style-type:none;
-	
 }
 body{
     color:#020202;
@@ -178,6 +176,7 @@ nav.fixed .header_R ul li{
 }
 .footer_inner ul li a{
 	color: #fff;
+	word-break: break-all;
 }
 /* topへ*/
 #page-top {

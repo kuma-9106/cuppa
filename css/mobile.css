@@ -87,11 +87,10 @@ nav{
 #nav-toggle span:nth-child(3) {
     top: 22px;
 }
-#top-head,
-    .inner {
+#top-head,.inner {
         width: 100%;
         padding: 0;
-    }
+}
 #top-head {
     top: 0;
     position: fixed;
@@ -123,6 +122,7 @@ nav{
     width: 100%;
     text-align: center;
     padding: 10px 0;
+    box-sizing: border-box;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
@@ -144,6 +144,7 @@ nav{
     display: block;
     color: #fff;
     padding: 18px 0;
+    box-sizing: border-box;
 }
 #nav-toggle {
     display: block;
