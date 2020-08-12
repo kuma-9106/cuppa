@@ -1,5 +1,6 @@
 
-$(window).on('load', function() {
+
+  
 'use strict';
 
 //hoverによる画像の切り替え
@@ -199,5 +200,5 @@ new function(){
                 console.log('test');
             });
   
-});
+
 
