@@ -141,8 +141,6 @@ new function(){
 
     //Gナビ固定
 
-
-	
 	//ロード or スクロールされると実行
 	$(window).on('load scroll', function(){
 		
@@ -156,7 +154,6 @@ new function(){
 		
 	});
 	
-
     //Gナビ固定end
 
 
@@ -187,7 +184,7 @@ new function(){
 		}]
 	});
 
-
+    //gnavi350pxスクロール時固定
       $(window).scroll(function() {
                 if ($(window).scrollTop() > 350) {
                     $('#top-head').addClass('fixed');
@@ -195,10 +192,11 @@ new function(){
                     $('#top-head').removeClass('fixed');
                 }
             });
-            $('#nav-toggle').on('click', function(){
-                $('#top-head').toggleClass('open');
-                console.log('test');
-            });
-  
+    //mobile用gnaviのクリック時開閉
+      $('#nav-toggle').on('click', function(){
+          $('#top-head').toggleClass('open');
+          console.log('test');
+      });
+
 
 
