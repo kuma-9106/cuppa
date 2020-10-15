@@ -158,31 +158,14 @@ new function(){
 
 
     //カルーセルスライド
-	$('.slider').slick({
-		dots: true, // スライダー下部に表示される、ドット状のページネーションです
-		infinite: true, // 無限ループ
-		speed: 500, // 切り替わりのスピード
-		slidesToShow: 3, //通常 1024px以上の領域では4画像表示
-		slidesToScroll: 3, 
-		responsive: [{
-			breakpoint: 1024,settings: { //601px～1024pxでは3画像表示
-				slidesToShow: 2,
-				slidesToScroll: 2,
-			}
-		},
-		{
-			breakpoint: 600,settings: { //481px～600pxでは2画像表示
-				slidesToShow: 2,
-				slidesToScroll: 2
-			}
-		},
-		{
-			breakpoint: 530,settings: {//480px以下では1画像表示
-				slidesToShow: 1,
-				slidesToScroll: 1
-			}
-		}]
-	});
+
+	
+$('.slick01').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+	
 
     //gnavi350pxスクロール時固定
       $(window).scroll(function() {
